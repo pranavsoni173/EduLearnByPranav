@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Learning Platform</title>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #dbb6d2;
+        }
+        header {
+            background-color: #474747;
+            color: white;
+            padding: 15px 20px;
+            text-align: center;
+            text-decoration-color: #ddd;    
+        }
+        nav {
+            position: sticky;
+            top: 0px;
+            display:flex;
+            justify-content: end;
+            background-color:none;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            background-color: black;
+            border-radius: 20px;
+            padding: 10px; 
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .content h2 {
+            color: #0a0a0a;
+            padding:10px;
+            left:50px;
+            /* width:350px; */
+            text-align:center;
+            /* margin-left:500px; */
+            font-size:35px;
+        }
+        .courses {
+            display: flex;
+            justify-content: space-between;
+            gap: 15px;
+            flex-wrap: wrap;
+            
+        }
+        .course {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding:25px;
+            flex: 1;
+            min-width: 300px;
+            margin:30px;
+            box-shadow: 0 2px 5px rgba(1, 242, 255, 0.1);
+            background-color:#787474;
+            
+        }
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+            background: url('https://via.placeholder.com/1200x400') no-repeat center/cover;
+            color: white;
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+        }
+        .hero p {
+            font-size: 1.2rem;
+        }
+        .content {
+            padding: 20px;
+        }
+        
+        .course img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        .course h3 {
+            color: #3700b3;
+        }
+        footer {
+            background-color: #180236;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 20px;
+        }
+        footer a {
+            color: #fff;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        p{
+            color: white;
+        }
+    </style> 
+</head>
+<body>
+  <img style="width:fit-content; height:500px;" src="https://t4.ftcdn.net/jpg/03/50/07/87/360_F_350078703_d7XFCLRnqew6Fa9qYtWMv7PL6sYnz7pT.jpg">
+    
+    <header>
+        <h1>Welcome to EduLearn</h1>
+        <p> <b> Your gateway to limitless learning opportunities </b> </p>
+    </header>
+
+    
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="courses.html">Courses</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    
+    <section class="hero" id="home">
+        <h1>Learn Anytime, Anywhere</h1>
+        <p>Explore our wide range of online courses and boost your skills today!</p>
+    </section>
+
+    
+    <div class="content" id="courses">
+        <h2> Our Popular Courses </h2>
+        <div class="courses">
+            <div class="course">
+            
+                <h3 style="color: black;">Course 1</h3>
+                <h3>Web Development</h3>
+                <img src="https://media.geeksforgeeks.org/wp-content/uploads/20231205165904/web-development-image.webp">
+                <p>Learn the fundamentals of web development and build your own websites from scratch.</p>
+            </div>
+            <div class="course">
+                <h3 style="color: black;">Course 2</h3>
+                <h3>Data Science</h3>
+                <img src="https://www.bcitworld.com/images/Data-Science-Training-institute-in-patna.webp">
+                <p>Master data analysis, visualization, and machine learning techniques.</p>
+            </div>
+            <div class="course">
+                <h3 style="color: black;">Course 3</h3>
+                <h3>Graphic Design</h3>
+                <img src="https://www.animationkolkata.com/blog/wp-content/uploads/2019/09/Graphic-design.jpg">
+                <p>Unleash your creativity with our comprehensive graphic design course.</p>
+            </div>
+        </div>
+    </div>
+    
+
+    
+
+    
+    <footer id="contact">
+        <p>Contact us at <a href="mailto:support@edulearn.com">support@edulearn.com</a></p>
+        <p>&copy; 2025 EduLearn. All rights reserved.</p>
+    </footer>
+</body>
+</html>
